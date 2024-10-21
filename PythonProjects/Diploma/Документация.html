@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+  .tab {
+    padding-left: 30px; /* Регулируйте отступ здесь */
+  }
+</style>
+<script>
+    function scrollToElement(elementId) {
+        var element = document.getElementById(elementId);
+        if (element) {
+            element.scrollIntoView({ block: 'start' });
+        }
+    }
+</script>
+</head>
+<body>
+
+<h1>Документация программы</h1>
+<h1>Пример использования синтаксиса программы:</h1>
+<h2>Общий пример</h2>
+<div>*Ключевое слово:*</div>
+<div class="tab">*Атрибут* = *Значение атрибута*</div>
+<div class="tab">*Атрибут* = *Значение атрибута*</div>
+<div class="tab">*Атрибут* = *Значение атрибута*</div>
+<h2>Конкретный пример</h2>
+<div>Окно:</div>
+<div class="tab">Заголовок = "Мой интерфейс"</div>
+<div class="tab">Ширина = 500</div>
+<div class="tab">Высота = 500</div>
+<div class="tab">Цвет фона = красный</div>
+<div>Кнопка:</div>
+<div class="tab">Ширина = 100</div>
+<div class="tab">Высота = 200</div>
+<div class="tab">Текст = "Кнопка1"</div>
+
+
+<h2>Ключевые слова</h2>
+<ol>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('window')">Окно</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('button')">Кнопка</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('label')">Метка</a></li>
+</ol>
+
+<h3 id="window">Окно</h3>
+<h4>Атрибуты виджета "Окно":</h4>
+<ul>
+	<li><a href="javascript:void(0)" onclick="scrollToElement('window')">Высота</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('button')">Горизонтальный отступ</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('label')">Цвет фона</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('label')">Изменять размер</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('label')">Курсор</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('label')">Стиль границы</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('label')">Ширина</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('label')">Ширина границы</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('label')">Цвет границы</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('label')">Цвет границы вне фокуса</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('label')">Ширина границы вне фокуса</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('label')">Вертикальный отступ</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('label')">Заголовок</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('label')">Принимать фокус</a></li>
+</ul>
+<h3 id="button">Кнопка</h3>
+<h4>Атрибуты виджета "Кнопка":</h4>
+<ul>
+	<li><a href="javascript:void(0)" onclick="scrollToElement('window')">Высота</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('button')">Горизонтальный отступ</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('label')">Цвет фона</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('label')">Изменять размер</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('label')">Курсор</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('label')">Стиль границы</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('label')">Ширина</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('label')">Ширина границы</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('label')">Цвет границы</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('label')">Цвет границы вне фокуса</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('label')">Ширина границы вне фокуса</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('label')">Вертикальный отступ</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('label')">Заголовок</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToElement('label')">Принимать фокус</a></li>
+</ul>
+<h3 id="label">Метка</h3>
+
+</body>
+</html>
